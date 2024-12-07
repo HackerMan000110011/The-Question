@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #31d67e;
+    font-family: sans-serif;
+    max-width: 20000px;
+  }
+
+  .Gif {
+    position: center;
+    width: 500px;
+    z-index:-1;
+    left: 100%;
+    top:0;
+    }
+
+  .btn {  
+    position: fixed;
+    right: 5%;
+    top: 10%;
+    padding: 10px;
+  }
+  
+  .btn a {
+    box-sizing: border-box;
+    font-family: arial, serif; ;
+    text-decoration: none;
+    color: rgb(26, 15, 128);
+    background-color: white;
+    padding: 0.1px 15px;
+    border-radius: 5px;
+    border: 0.3px solid;
+    box-shadow: 0.5rem 1rem 3rem hsla(0, 0%, 0%, 0.3);
+}
